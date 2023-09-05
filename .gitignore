@@ -1,5 +1,6 @@
 e2e/chrome-data/
 e2e/env/
+coverage
 
 # Logs
 logs
