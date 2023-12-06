@@ -1,7 +1,7 @@
 import { beforeEach, it, describe, expect, vi } from 'vitest';
 import { render, fireEvent, screen } from '@testing-library/preact';
 import { act } from 'preact/test-utils';
-import { App } from './app.jsx';
+import { App } from '../src/app.jsx';
 
 vi.useFakeTimers();
 
