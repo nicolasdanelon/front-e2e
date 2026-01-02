@@ -12,7 +12,8 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "preact": "^10.28.1",
-    "react-daisyui": "^5.0.5"
+    "react-daisyui": "^5.0.5",
+    "wouter-preact": "^3.9.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.2",
