@@ -1,4 +1,6 @@
 import { useState } from 'preact/compat';
+import { Link } from 'wouter-preact';
+import { routes } from '../router.js';
 
 export function CreateAccount() {
   const steps = ['Phone', 'Details', 'TOS', 'Confirmation'];
