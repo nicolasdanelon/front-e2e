@@ -3,6 +3,7 @@ import { routes } from './router.js';
 import { Home } from './pages/Home.jsx';
 import { Login } from './pages/Login.jsx';
 import { CreateAccount } from './pages/CreateAccount.jsx';
+import { Dashboard } from './pages/Dashboard.jsx';
 
 export function App() {
   return (
@@ -17,7 +18,7 @@ export function App() {
           <Link href={routes.createAccount} className="btn btn-primary">Create Account</Link>
         </div>
       </header>
-      <main>
+      <main className="max-w-5xl mx-auto px-4">
         <Switch>
           <Route path={routes.home}>
             <Home />
@@ -27,6 +28,9 @@ export function App() {
           </Route>
           <Route path={routes.createAccount}>
             <CreateAccount />
+          </Route>
+          <Route path={routes.dashboard}>
+            <Dashboard />
           </Route>
           <Route>
             <div className="m-10 text-base-content">Not Found</div>

@@ -86,6 +86,7 @@ export function CreateAccount() {
               placeholder="+54..."
               className="input input-bordered w-full"
               value={phone}
+              maxLength={15}
               onInput={(e) => { setPhone(e.target.value); setError(''); }}
             />
             {phone && (
